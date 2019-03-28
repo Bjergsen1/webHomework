@@ -153,20 +153,54 @@
 .fw-w20 {
   width: 20%; }
 
-#h1-table {
-  font-size: 16px;
-  margin: 100px auto 0 auto;
-  width: 1000px;
-  text-align: center; }
-  #h1-table caption {
-    font-family: kaiti;
-    text-align: center;
-    font-size: 66px; }
-  #h1-table tr, #h1-table th {
-    line-height: 30px; }
-  #h1-table thead {
-    font-family: heiti; }
-  #h1-table tbody {
-    font-family: kaiti; }
+.fw-bold {
+  font-weight: bold; }
+
+.border-red {
+  border: 1px solid red;
+  padding: 2px;
+  width: 100%;
+  margin: 0 auto; }
+
+.fw-c-grey {
+  color: grey; }
+
+i {
+  color: red; }
+
+body {
+  color: #000;
+  font-size: 12px; }
+  body hr {
+    border: 1px solid #ddd;
+    margin: 6px 0 0 0; }
+
+#field-list {
+  display: flex;
+  flex-direction: column; }
+  #field-list li {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    #field-list li span.title {
+      width: 100px;
+      text-align: right; }
+    #field-list li span.tips {
+      width: 200px;
+      text-align: left; }
+    #field-list li > input {
+      margin: auto 10px;
+      width: 200px; }
+    #field-list li span.special {
+      width: 200px; }
+    #field-list li textarea {
+      width: 400px;
+      height: 100px; }
+
+#red-tips {
+  color: red; }
+  #red-tips div {
+    width: 200px; }
 
 /*# sourceMappingURL=app.css.map */
