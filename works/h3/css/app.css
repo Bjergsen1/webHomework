@@ -153,14 +153,20 @@
 .fw-w20 {
   width: 20%; }
 
-#container header {
-  background-color: grey;
+#container {
   display: flex;
-  justify-content: space-around; }
-  #container header a {
-    color: #fff; }
-    #container header a:hover {
-      color: red; }
+  flex-direction: column;
+  padding: 2.5rem; }
+  #container header {
+    background-color: grey;
+    display: flex;
+    justify-content: left;
+    padding: 10px; }
+    #container header a {
+      margin: 0 1.5rem;
+      color: #fff; }
+      #container header a:hover {
+        color: red; }
 
 .itemarea {
   display: block;
