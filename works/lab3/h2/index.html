@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../assets/css/lib/amazeui.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>201731061422+邹佳乐</title>
+</head>
+
+<body>
+    <style>
+        .flex {
+            display: flex;
+        }
+
+        .f1 {
+            flex: 1;
+        }
+
+        .f-j-c {
+            justify-content: center;
+        }
+
+        .mt-s {
+            margin-top: 16px;
+        }
+
+        .container {
+            padding: 20px;
+            margin: 10px;
+        }
+
+        table td {
+            width: 60px;
+            text-align: center;
+        }
+    </style>
+    <div class="container">
+        <div class="flex  f-j-c">
+            <span class="f1">name: <input type="text"></span>
+            <span class="f1">email: <input type="text"></span>
+            <span class="f1">salary: <input type="text"></span>
+        </div>
+        <div class="flex f-j-c mt-s"><button id="sbt">submit</button></div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="flex f-j-c mt-s">
+            <table border="1px" cellspacing='0' cellspadding='0' align="center">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Salary</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tbd">
+                    <tr>
+                        <td>Name</td>
+                        <td>Email</td>
+                        <td>Salary</td>
+                        <td><a href="javascript:0" class="del">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="../../../assets/js/libs/jquery.min.js"></script>
+    <script src="../../../assets/js/libs/amazeui.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
